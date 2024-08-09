@@ -633,20 +633,6 @@ UnitIcons/Heavy Chariot
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Hetairoi
-  rotate: false
-  xy: 212, 1252
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Hetairoi
-  rotate: false
-  xy: 212, 1252
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
 UnitIcons/Koa
   rotate: false
   xy: 420, 1044
@@ -881,6 +867,20 @@ UnitIcons/Vanator
 UnitIcons/Viet Cong
   rotate: false
   xy: 1668, 4
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hetairoi
+  rotate: false
+  xy: 212, 1252
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Hetairoi
+  rotate: false
+  xy: 212, 1252
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -3287,7 +3287,7 @@ TileSets/5Hex/Units/Ulan-3
   index: -1
 TileSets/AbsoluteUnits/Units/Anti-Tank Rifle
   rotate: false
-  xy: 1969, 1180
+  xy: 1969, 1116
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4197,7 +4197,7 @@ TileSets/HexaRealm/Tiles/Sea Trade Route (Production)-Renaissance era
   index: -1
 TileSets/HexaRealm/Units/Anti-Tank Rifle
   rotate: false
-  xy: 1969, 1116
+  xy: 1969, 1180
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4475,20 +4475,6 @@ UnitIcons/Siege Tower
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Ski Infantry
-  rotate: false
-  xy: 1508, 1511
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Ski Infantry
-  rotate: false
-  xy: 1508, 1511
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 UnitIcons/Voortrekker
   rotate: false
   xy: 4, 1635
@@ -4662,6 +4648,20 @@ UnitPromotionIcons/Restlessness
   xy: 928, 512
   size: 50, 50
   orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Ski Infantry
+  rotate: false
+  xy: 1508, 1511
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Ski Infantry
+  rotate: false
+  xy: 1508, 1511
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spear Throw
