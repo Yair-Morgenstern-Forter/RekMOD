@@ -1010,20 +1010,6 @@ BuildingIcons/Censer Maker
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Cloves
-  rotate: false
-  xy: 1708, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Cloves
-  rotate: false
-  xy: 1708, 1836
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Convict Penitentiary
   rotate: false
   xy: 112, 787
@@ -1164,20 +1150,6 @@ BuildingIcons/National Visitor's Center
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nutmeg
-  rotate: false
-  xy: 1018, 1619
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Nutmeg
-  rotate: false
-  xy: 1018, 1619
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Ocupada Estable
   rotate: false
   xy: 1126, 1619
@@ -1230,20 +1202,6 @@ BuildingIcons/Painted Monastery
 BuildingIcons/Parthenon
   rotate: false
   xy: 1824, 1727
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/Pepper
-  rotate: false
-  xy: 1932, 1727
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Pepper
-  rotate: false
-  xy: 1932, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2039,6 +1997,20 @@ ResourceIcons/Bison
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Cloves
+  rotate: false
+  xy: 1708, 1836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cloves
+  rotate: false
+  xy: 1708, 1836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Cocoa
   rotate: false
   xy: 1816, 1835
@@ -2088,9 +2060,37 @@ ResourceIcons/Maize
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Nutmeg
+  rotate: false
+  xy: 1018, 1619
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Nutmeg
+  rotate: false
+  xy: 1018, 1619
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Olives
   rotate: false
   xy: 1450, 1619
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Pepper
+  rotate: false
+  xy: 1932, 1727
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Pepper
+  rotate: false
+  xy: 1932, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

@@ -5,7 +5,7 @@
         "culture": 5,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -15,7 +15,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -25,7 +25,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[10]% Food is carried over after population increases [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -36,7 +36,7 @@
         "happiness": 1,
         "uniques": [
             "Unbuildable","Unsellable",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -47,7 +47,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% Production when constructing [All] buildings [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -57,7 +57,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+15]% [Gold] [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -65,7 +65,7 @@
         "uniques": [
             "Unbuildable","Unsellable",
             "[+1 Food, +1 Production] from [Luxury resource] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
 
@@ -342,7 +342,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Sauna",
@@ -355,7 +355,7 @@
         "uniques": [
             "All newly-trained [relevant] units [in this city] receive the [Sauna] promotion",
             "[+2 Culture] from [Lakes] tiles [in this city]",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ]
     },
     {
@@ -367,7 +367,7 @@
         "cost": 40,
         "maintenance": 1,
         "requiredTech": "Pottery",
-        "uniques": ["Hidden when religion is disabled"]
+        "uniques": ["Only available <when religion is enabled>"]
     },
     {
         "name": "Temple of Artemis",
@@ -474,7 +474,7 @@
         "uniques": [
             "[+1 Science] per [2] population [in this city]",
             "Comment [Has 1 Great Work of Writing Slot]",
-            "New [Military] units start with [15] Experience [in this city] <in cities with a [Royal Library Great Writing Slot]>"
+            "New [Military] units start with [15] XP [in this city] <in cities with a [Royal Library Great Writing Slot]>"
         ],
         "requiredTech": "Writing"
     },
@@ -660,7 +660,7 @@
         "greatPersonPoints": {"Great Merchant": 1},
         "isWonder": true,
         "uniques": [
-            "Provides a sum of gold each time you spend a Great Person",
+            "Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
             "[+2 Gold] from [Marble] tiles [in this city]",
             "[+2 Gold] from [Stone] tiles [in this city]",
             "[+2 Gold] from [Obsidian] tiles [in this city]"
@@ -673,7 +673,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -686,7 +686,7 @@
         "science": 2,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Melee] units [in this city] receive the [Dojo] promotion"
         ],
@@ -701,7 +701,7 @@
         "uniques": [
             "[-25]% Culture cost of natural border growth [in this city]",
             "[-25]% Gold cost of acquiring tiles [in this city]",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Bronze Working"
@@ -713,7 +713,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "All newly-trained [Sword] units [in this city] receive the [Buffalo Horns I] promotion",
             "All newly-trained [Mounted] units [in this city] receive the [Buffalo Horns I] promotion"
@@ -851,7 +851,7 @@
             "[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
             "[+1 Production, +1 Gold] from [Sheep] tiles [in this city]",
-            "New [Mounted] units start with [15] Experience [in this city]"
+            "New [Mounted] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Horseback Riding"
     },
@@ -1299,7 +1299,7 @@
         "hurryCostModifier": 25,
         "percentStatBonus": {"gold": 25},
         "uniques": [
-            "Gain [20] [Gold] (modified by game speed) <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
+            "Gain [20] [Gold] <(modified by game speed)> <upon gaining a [Great Person] unit>", // should be on expending... give me some time to work on it
             "[+1 Gold] from [Land Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]"
         ],
@@ -1432,7 +1432,7 @@
         "uniques": [
             "Gain a free [Temple] [in this city]",
             "Free [Great Prophet] appears",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
@@ -1446,7 +1446,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>"
         ],
         "requiredTech": "Theology",
@@ -1462,7 +1462,7 @@
         "uniques": [
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "isNationalWonder": true
@@ -1478,7 +1478,7 @@
             "Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>",
             "Cost increases by [30] per owned city",
             "[+100]% Natural religion spread [in this city]",
-            "Hidden when religion is disabled",
+            "Only available <when religion is enabled>",
             "Can only be built <in [Holy] cities>",
             "Gain a free [Cathedral] [in this city]",
             "Free [Great Prophet] appears"
@@ -1495,7 +1495,7 @@
             "Gain a free [Garden] [in this city]",
             "[3] free [Missionary] units appear",
             "Can only be built <in [Holy] cities>",
-            "Hidden when religion is disabled"
+            "Only available <when religion is enabled>"
         ],
         "requiredTech": "Theology",
         "quote": "'When you realize how perfect everything is, you will tilt your head back and laugh at the sky' - Gautama Buddha"
@@ -1728,7 +1728,7 @@
             "Must be next to [Coast]",
             "[+1 Gold] from [Sea Trade Route (Gold)] tiles [in this city]",
             "[+1 Gold] from [Water resource] tiles [in this city]",
-            "New [Water] units start with [15] Experience [in this city]"
+            "New [Water] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Compass"
     },
@@ -1932,7 +1932,7 @@
         "maintenance": 1,
         "requiredBuilding": "Barracks",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Steel"
@@ -1946,7 +1946,7 @@
         "requiredBuilding": "Barracks",
         "uniques": [
             "Free [Reislaufer] appears",
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "All newly-trained [{Land} {Military}] units [in this city] receive the [Mountaineer] promotion",
             "Destroyed when the city is captured"
         ],
@@ -1959,7 +1959,7 @@
         "hurryCostModifier": 25,
         "maintenance": 1,
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured",
             "[+1 Food, +1 Culture, +1 Production] from [Marsh] tiles [in this city]",
             "[+1 Culture] from [Jungle] tiles [in this city]",
@@ -2776,7 +2776,7 @@
         "maintenance": 1,
         "requiredBuilding": "Armory",
         "uniques": [
-            "New [Military] units start with [15] Experience [in this city]",
+            "New [Military] units start with [15] XP [in this city]",
             "Destroyed when the city is captured"
         ],
         "requiredTech": "Military Science"
@@ -2788,7 +2788,7 @@
         "isWonder": true,
         "uniques": [
             "Free [Great General] appears",
-            "New [Military] units start with [15] Experience [in this city]"
+            "New [Military] units start with [15] XP [in this city]"
         ],
         "requiredTech": "Military Science",
         "quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
@@ -3210,7 +3210,7 @@
         "uniques": [
             "Enables construction of Spaceship parts",
             "Triggers a global alert upon completion",
-            "Hidden when [Scientific] Victory is disabled",
+            "Only available <when [Scientific] Victory is enabled>",
             "Cannot be hurried"
         ],
         "requiredTech": "Rocketry"
@@ -3272,7 +3272,7 @@
         "requiredTech": "Globalization",
         "uniques": [
             "Triggers voting for the Diplomatic Victory",
-            "Hidden when [Diplomatic] Victory is disabled",
+            "Only available <when [Diplomatic] Victory is enabled>",
             "Triggers a global alert upon completion"
         ],
         "quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
@@ -3287,7 +3287,7 @@
             "Only available <when above [30] [Policies]>",
             "Triggers a global alert upon build start",
             "Triggers a Cultural Victory upon completion",
-            "Hidden when [Cultural] Victory is disabled",
+            "Only available <when [Cultural] Victory is enabled>",
             "Cannot be hurried"
         ]
     }
