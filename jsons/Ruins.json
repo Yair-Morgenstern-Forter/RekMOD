@@ -2,7 +2,7 @@
     {
         "name": "freeCulture",
         "notification": "We have discovered cultural artifacts in the ruins! (+10 culture)",
-        "uniques": ["Gain [20] [Culture] (modified by game speed) <after turn number [15]>"]
+        "uniques": ["Gain [20] [Culture] <(modified by game speed)> <after turn number [15]>"]
         },
     {
         "name": "joinWorker",
@@ -34,7 +34,7 @@
     {
         "name": "unitUpgrade",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"]
+        "uniques": ["[This Unit] upgrades for free including special upgrades"]
         },
     {
         "name": "crudelyDrawnMap",
@@ -44,6 +44,6 @@
     {
         "name": "holySymbols",
         "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain [20] [Faith] (modified by game speed) <after turn number [15]>"]
+        "uniques": ["Only available <when religion is enabled>", "Gain [20] [Faith] <(modified by game speed)> <after turn number [15]>"]
         }
 ]

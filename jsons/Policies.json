@@ -620,7 +620,7 @@
                 "name": "Entrepreneurship",
                 "uniques": [
                     "[-25]% maintenance on road & railroads",
-                    "[-25]% maintenance cost for buildings [in all cities]",
+                    "[-25]% maintenance cost for [all] buildings [in all cities]",
                     "Provides [2] [Trade Route]",
                     "Provides [1] [Policies]"
                 ],
@@ -1221,9 +1221,9 @@
             {
                 "name": "Futurism",
                 "uniques": [
-                    "Gain [250] [Culture] (modified by game speed) <upon gaining a [Great Artist] unit>",
-                    "Gain [250] [Culture] (modified by game speed) <upon gaining a [Great Writer] unit>",
-                    "Gain [250] [Culture] (modified by game speed) <upon gaining a [Great Musician] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Artist] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Writer] unit>",
+                    "Gain [250] [Culture] <(modified by game speed)> <upon gaining a [Great Musician] unit>",
                     "Provides [1] [Level 1 Ideology]",
                     "Provides [1] [Policies]"
                 ],
@@ -1328,7 +1328,7 @@
                 "name": "Total War",
                 "uniques": [
                     "[+25]% Production when constructing [Military] units [in all cities]",
-                    "New [Military] units start with [15] Experience [in all cities]",
+                    "New [Military] units start with [15] XP [in all cities]",
                     "Provides [-1] [Level 1 Ideology]",
                     "Provides [1] [Level 2 Ideology]",
                     "Only available <when above [1] [Level 1 Ideology]>",
